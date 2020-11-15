@@ -1,5 +1,5 @@
 ﻿# Text-based_Roguelike_Game
-To play the game with sound, download the following .wav files and add them to its directory.
+To play with **sound**, download the following .wav files and include them in the game's directory.
 
 Then, run the .py file named "Game-WithSound".
 
