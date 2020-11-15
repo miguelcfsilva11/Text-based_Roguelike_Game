@@ -10,9 +10,6 @@ import pygame
 
 
 def voltar_menu():
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     e1.place_forget()
     label2.place_forget()
     label3.place_forget()
@@ -84,9 +81,6 @@ def voltar_menu():
     label1.place(relx=.2, rely=.2)
 
 def b1_jogar():
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.05)
     b1.place_forget()
     b2.place_forget()
     label1.place_forget()
@@ -99,9 +93,6 @@ def b1_jogar():
 
 
 def b3_começar():
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     nome3 = nome.get()
     if nome3.isalpha():
         b3.place_forget()
@@ -135,9 +126,6 @@ def b3_começar():
 
 def besconder_1():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label3.place_forget()
     b4dec1.place_forget()
     b5dec1.place_forget()
@@ -147,9 +135,6 @@ def besconder_1():
 
 def b4_fugir():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label3.place_forget()
     b4dec1.place_forget()
     b5dec1.place_forget()
@@ -162,9 +147,6 @@ def b4_fugir():
 
 def b6_rio():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label4.place_forget()
     b6dec2.place_forget()
     b7dec2.place_forget()
@@ -175,9 +157,6 @@ def b6_rio():
 
 def b7_floresta():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label4.place_forget()
     b6dec2.place_forget()
     b7dec2.place_forget()
@@ -188,9 +167,6 @@ def b7_floresta():
 
 def b8_precipicio():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label4.place_forget()
     b6dec2.place_forget()
     b7dec2.place_forget()
@@ -202,9 +178,6 @@ def b8_precipicio():
 
 def b9_suster():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label5.place_forget()
     b9dec3.place_forget()
     b10dec3.place_forget()
@@ -214,9 +187,6 @@ def b9_suster():
 
 def b10_enfrentas():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label5.place_forget()
     b9dec3.place_forget()
     b10dec3.place_forget()
@@ -228,9 +198,6 @@ def b10_enfrentas():
 
 def b10_continuar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label9.place_forget()
     continue1.place_forget()
     label10.place(relx=.1, rely=.2)
@@ -241,9 +208,6 @@ def b10_continuar():
 
 def b10_org():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label10.place_forget()
     org.place_forget()
     label11.place(relx=.1, rely=.2)
@@ -255,9 +219,6 @@ def b10_org():
 
 def b11_arma():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label11.place_forget()
     b11dec4.place_forget()
     b12dec4.place_forget()
@@ -270,9 +231,6 @@ def b11_arma():
 
 def b11_fugir():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label11.place_forget()
     b11dec4.place_forget()
     b12dec4.place_forget()
@@ -285,9 +243,6 @@ def b11_fugir():
 
 def b13_direita():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label7.place_forget()
     b13dec3.place_forget()
     b14dec3.place_forget()
@@ -297,9 +252,6 @@ def b13_direita():
 
 def b14_frente():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label7.place_forget()
     b13dec3.place_forget()
     b14dec3.place_forget()
@@ -309,9 +261,6 @@ def b14_frente():
 
 def b15_foges():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label14.place_forget()
     b15dec4.place_forget()
     b16dec4.place_forget()
@@ -320,9 +269,6 @@ def b15_foges():
 
 def b16_esconder():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label14.place_forget()
     b15dec4.place_forget()
     b16dec4.place_forget()
@@ -331,9 +277,6 @@ def b16_esconder():
 
 def b16_continuar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label16.place_forget()
     continue2.place_forget()
     label17.place(relx=.1, rely=.2)
@@ -342,9 +285,6 @@ def b16_continuar():
 
 def b17_ignorar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label17.place_forget()
     b17dec5.place_forget()
     b18dec5.place_forget()
@@ -353,9 +293,6 @@ def b17_ignorar():
 
 def b17_ignorarfinal():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label19.place_forget()
     continue9.place_forget()
     label18.place(relx=.1, rely=.2)
@@ -363,9 +300,6 @@ def b17_ignorarfinal():
 
 def b18_bebefinal():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label17.place_forget()
     b17dec5.place_forget()
     b18dec5.place_forget()
@@ -373,18 +307,12 @@ def b18_bebefinal():
     continue3.place(relx=.3, rely=.8)
 
 def b18_continuar():
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     messagebox.showinfo("Informação", "Parabéns! Completou a DEMO!\nPara continuar pague a versão Premium!")
     continue3.place_forget()
     r2.place(relx=.3, rely=.8)
 
 def b19_saltar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label20.place_forget()
     b10dec3.place_forget()
     b19dec3.place_forget()
@@ -394,9 +322,6 @@ def b19_saltar():
 
 def b20_sais():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label21e.place_forget()
     b20dec4.place_forget()
     b21dec4.place_forget()
@@ -405,9 +330,6 @@ def b20_sais():
 
 def b21_vais():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label21e.place_forget()
     b20dec4.place_forget()
     b21dec4.place_forget()
@@ -416,9 +338,6 @@ def b21_vais():
 
 def b20_continuar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     continue5.place_forget()
     label22.place_forget()
     label23.place_forget()
@@ -428,9 +347,6 @@ def b20_continuar():
 
 def b22_ignorar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label24.place_forget()
     b22dec5.place_forget()
     b23dec5.place_forget()
@@ -439,9 +355,6 @@ def b22_ignorar():
 
 def b23_entras():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label24.place_forget()
     b22dec5.place_forget()
     b23dec5.place_forget()
@@ -451,9 +364,6 @@ def b23_entras():
 
 def b24_comes():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label26.place_forget()
     b24dec6.place_forget()
     b25dec6.place_forget()
@@ -462,9 +372,6 @@ def b24_comes():
 
 def b24_continuar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label27.place_forget()
     continue6.place_forget()
     label28.place(relx=.1, rely=.2)
@@ -472,9 +379,6 @@ def b24_continuar():
 
 def b24_parabens():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     messagebox.showinfo("Informação", "Parabéns! Completou a DEMO!\nPara continuar pague a versão Premium!")
     continue7.place_forget()
     continue8.place_forget()
@@ -483,9 +387,6 @@ def b24_parabens():
 
 def b25_fome():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label26.place_forget()
     b24dec6.place_forget()
     b25dec6.place_forget()
@@ -494,9 +395,6 @@ def b25_fome():
 
 def b25_continuar():
     nome = e1.get()
-    click = pygame.mixer.Sound("click.wav")
-    click.play()
-    click.set_volume(0.15)
     label27.place_forget()
     continue6.place_forget()
     label29.place(relx=.1, rely=.2)
@@ -510,14 +408,7 @@ root = Tk()
 root.title("Dias de um Futuro Perdido")
 root.geometry("600x800")
 root.resizable(0, 0)
-
-#Background sound
-
-
 pygame.init()
-amnesia = pygame.mixer.Sound("amnesia.wav")
-amnesia.play()
-amnesia.set_volume(0.05)
 
 
 #Items da root
