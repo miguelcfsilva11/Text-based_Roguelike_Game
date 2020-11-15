@@ -1,0 +1,13 @@
+README.txt
+example.py
+setup.cfg
+setup.py
+upload
+mp3play/__init__.py
+mp3play/__init__.pyc
+mp3play/windows.py
+mp3play/windows.pyc
+mp3play.egg-info/PKG-INFO
+mp3play.egg-info/SOURCES.txt
+mp3play.egg-info/dependency_links.txt
+mp3play.egg-info/top_level.txt
